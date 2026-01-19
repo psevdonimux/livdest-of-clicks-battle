@@ -37,13 +37,25 @@ php -S localhost:8080
 
 ## Скриншоты
 
-| Меню | Игра | Рейтинг |
-|------|------|---------|
-| ![Меню](screenshots/menu.webp) | ![Игра](screenshots/play.webp) | ![Рейтинг](screenshots/rating.webp) |
+| Меню |
+|------|
+| ![Меню](screenshots/menu.webp) |
 
-| Скины | Авторизация |
-|-------|-------------|
-| ![Скины](screenshots/skins.webp) | ![Авторизация](screenshots/auth.webp) |
+| Игра |
+|------|
+| ![Игра](screenshots/play.webp) |
+
+| Рейтинг |
+|---------|
+| ![Рейтинг](screenshots/rating.webp) |
+
+| Скины |
+|-------|
+| ![Скины](screenshots/skins.webp) |
+
+| Авторизация |
+|-------------|
+| ![Авторизация](screenshots/auth.webp) |
 
 
 ## Требования
