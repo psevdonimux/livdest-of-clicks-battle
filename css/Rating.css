@@ -1,6 +1,4 @@
 #color {
-	border: 20px ridge;
-	border-radius: 40px;
 	background-position: center;
 	background-size: 5%;
 }
@@ -46,7 +44,6 @@
 }
 @media (orientation: portrait) {
 	#color {
-		border: 8px ridge;
 		background-size: 11%;
 	}
 	#top1 {
