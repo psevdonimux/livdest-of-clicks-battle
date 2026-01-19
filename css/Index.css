@@ -1,0 +1,73 @@
+#color {
+	background-position: center;
+	background-size: 5%;
+}
+#start, #skin {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 22.8%;
+	height: 25%;
+	font-size: 175%;
+	border-radius: 20px;
+}
+#start {
+	top: 0;
+	bottom: 25%;
+}
+#skin {
+	top: 25%;
+	bottom: 0;
+}
+#join, #reg, #rating, #mode {
+	position: absolute;
+	width: 14.3%;
+	height: 12.7%;
+	font-size: 100%;
+	border-radius: 20px;
+}
+#join {
+	top: 0;
+	left: 0;
+}
+#reg {
+	top: 0;
+	right: 0;
+}
+#rating {
+	bottom: 0;
+	left: 0;
+}
+#mode {
+	bottom: 0;
+	right: 0;
+}
+@media (orientation: portrait) {
+	#color {
+		background-size: 11%;
+	}
+	#start, #skin {
+		width: 45.5%;
+		height: 10.2%;
+		font-size: 168%;
+	}
+	#start {
+		bottom: 10.3%;
+	}
+	#skin {
+		top: 10.3%;
+	}
+	#join, #reg, #rating, #mode {
+		width: 30%;
+		height: 5%;
+	}
+}
+@media all and (orientation: landscape) and (min-device-width: 1280px), all and (orientation: portrait) and (min-device-height: 1280px) {
+	#start, #skin {
+		font-size: 350%;
+	}
+	#join, #reg, #rating, #mode {
+		font-size: 170%;
+	}
+}

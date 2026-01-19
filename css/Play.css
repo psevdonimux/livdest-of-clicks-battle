@@ -1,0 +1,107 @@
+#loader {
+	position: absolute;
+	top: 70.1%;
+	left: 30.6%;
+	width: 0;
+	height: 0;
+}
+#color {
+	background-position: center;
+	background-size: 5%;
+}
+#count, #bonus {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 300%;
+	text-align: center;
+	font-family: cosmic-sans;
+}
+#count {
+	top: 0;
+}
+#bonus {
+	top: 57.5%;
+}
+#up1, #up10, #up100, #upMax {
+	position: absolute;
+	font-size: 100%;
+	width: 10%;
+	height: 18.8%;
+	text-align: center;
+	font-family: cosmic-sans;
+	border: 7.5px double;
+}
+#up1 {
+	top: 31.1%;
+	left: 30.6%;
+}
+#up10 {
+	top: 50.1%;
+	left: 30.6%;
+}
+#up100 {
+	top: 31.1%;
+	right: 30.6%;
+}
+#upMax {
+	top: 50.1%;
+	right: 30.6%;
+}
+#click {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 17%;
+	height: 34%;
+	border: 7.5px double;
+}
+@font-face {
+	font-family: cosmic-sans;
+	src: url('/font/cosmic-sans.ttf');
+}
+@media (orientation: portrait) {
+	#color {
+		background-size: 11%;
+	}
+	#count {
+		top: 25%;
+	}
+	#up1, #up10, #up100, #upMax {
+		font-size: 100%;
+		width: 20%;
+		height: 9.25%;
+	}
+	#up1 {
+		top: 40.7%;
+		left: 10.6%;
+	}
+	#up10 {
+		top: 50%;
+		left: 10.6%;
+	}
+	#up100 {
+		top: 40.7%;
+		right: 10.6%;
+	}
+	#upMax {
+		top: 50%;
+		right: 10.6%;
+	}
+	#click {
+		width: 34%;
+		height: 17%;
+	}
+}
+@media all and (orientation: landscape) and (min-device-width: 1280px), all and (orientation: portrait) and (min-device-height: 1280px) {
+	#count, #bonus {
+		font-size: 450%;
+	}
+	#up1, #up10, #up100, #upMax {
+		font-size: 450%;
+	}
+}

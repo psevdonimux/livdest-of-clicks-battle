@@ -1,0 +1,74 @@
+#color {
+	background-position: center;
+	background-size: 5%;
+}
+#login, #password {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10%;
+	margin: auto;
+	width: 28.4%;
+	height: 7.5%;
+	font-size: 100%;
+	text-align: center;
+	border-radius: 20px;
+}
+#login {
+	top: 0;
+}
+#login::placeholder {
+	color: var(--login, #FFF);
+}
+#password {
+	top: 15%;
+}
+#password::placeholder {
+	color: var(--password, #FFF);
+}
+#submit, #reg {
+	position: absolute;
+	top: 30%;
+	bottom: 10%;
+	margin: auto;
+	width: 14.2%;
+	height: 7.5%;
+	font-size: 100%;
+	border-radius: 20px;
+}
+#submit {
+	left: 0;
+	right: 14.2%;
+}
+#reg {
+	left: 14.2%;
+	right: 0;
+}
+@media (orientation: portrait) {
+	#color {
+		background-size: 11%;
+	}
+	#login, #password {
+		width: 60%;
+		height: 4%;
+	}
+	#password {
+		top: 8%;
+	}
+	#submit, #reg {
+		width: 30%;
+		height: 4%;
+		top: 16%;
+	}
+	#submit {
+		right: 30%;
+	}
+	#reg {
+		left: 30%;
+	}
+}
+@media all and (orientation: landscape) and (min-device-width: 1280px), all and (orientation: portrait) and (min-device-height: 1280px) {
+	#login, #password, #submit, #reg {
+		font-size: 170%;
+	}
+}

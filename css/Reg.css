@@ -1,0 +1,83 @@
+#color {
+	background-position: center;
+	background-size: 5%;
+}
+#username, #login, #password {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10%;
+	margin: auto;
+	width: 28.4%;
+	height: 7.5%;
+	font-size: 100%;
+	text-align: center;
+	border-radius: 20px;
+}
+#username {
+	top: 0;
+}
+#username::placeholder {
+	color: var(--username, #FFF);
+}
+#login {
+	top: 15%;
+}
+#login::placeholder {
+	color: var(--login, #FFF);
+}
+#password {
+	top: 30%;
+}
+#password::placeholder {
+	color: var(--password, #FFF);
+}
+#submit, #join {
+	position: absolute;
+	top: 45%;
+	bottom: 10%;
+	margin: auto;
+	width: 14.2%;
+	height: 7.5%;
+	font-size: 100%;
+	border-radius: 20px;
+}
+#submit {
+	left: 0;
+	right: 14.2%;
+}
+#join {
+	left: 14.2%;
+	right: 0;
+}
+@media (orientation: portrait) {
+	#color {
+		background-size: 11%;
+	}
+	#username, #login, #password {
+		width: 60%;
+		height: 4%;
+	}
+	#login {
+		top: 8%;
+	}
+	#password {
+		top: 16%;
+	}
+	#submit, #join {
+		width: 30%;
+		height: 4%;
+		top: 24%;
+	}
+	#submit {
+		right: 30%;
+	}
+	#join {
+		left: 30.2%;
+	}
+}
+@media all and (orientation: landscape) and (min-device-width: 1280px), all and (orientation: portrait) and (min-device-height: 1280px) {
+	#username, #login, #password, #submit, #join {
+		font-size: 170%;
+	}
+}
