@@ -1,3 +1,5 @@
+[Русский](README.md) | [English](README.en.md)
+
 # LivDest of Clicks Battle
 
 Click Battle - competitive game where players earn clicks and compete for a place in the ranking.
